@@ -14,6 +14,7 @@ class TestFizzbuzz(unittest.TestCase):
     def test_isNumber(self):
         fizzbuzz(1)
         self.assertEqual(fizzbuzz(1), "1")
+        self.assertEqual(fizzbuzz(17), "17")
 
 if __name__ == '__main__':
     unittest.main()
