@@ -10,10 +10,11 @@ class TestFizzbuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz(5), "buzz")
     def test_isFizzbuzz(self):
         fizzbuzz(15)
-        self.assertEqual(fizzbuzz(15), "fizz")
+        self.assertEqual(fizzbuzz(15), "fizzbuzz")
     def test_isNumber(self):
         fizzbuzz(1)
         self.assertEqual(fizzbuzz(1), "1")
+        self.assertEqual(fizzbuzz(17), "17")
 
 if __name__ == '__main__':
     unittest.main()
